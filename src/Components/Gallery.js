@@ -17,7 +17,7 @@ function Gallery() {
 
     React.useEffect(() => {
         getAnimePictures(id)
-    }, [id])
+    }, [id, getAnimePictures])
 
     return (
         <GalleryStyled>
